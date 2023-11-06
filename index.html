@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header max-w-screen h-screen px-10 bg-blue-100">
+      <nav class="nav flex justify-between items-center py-10">
+        <a href="" class="text-2xl font-bold text-orange-500">BooKDev</a>
+        <ul class="nav-ul flex justify-between items-center gap-20">
+          <li>
+            <a class="text-orange-500 hover:underline font-medium" href=""
+              >Home</a
+            >
+          </li>
+          <li>
+            <a class="text-orange-500 hover:underline font-medium" href=""
+              >Products</a
+            >
+          </li>
+          <li>
+            <a class="text-orange-500 hover:underline font-medium" href=""
+              >About</a
+            >
+          </li>
+        </ul>
+        <a class="text-orange-500 hover:underline font-medium" href=""
+          >Sign In</a
+        >
+      </nav>
+
+      <section class="section">
+        <div class="search-lab flex justify-between">
+          <input
+            id="input"
+            type="text"
+            placeholder="Book name"
+            class="rounded-sm block w-full p-2.5 active:orange-500 focus:outline-none focus:ring focus:ring-orange-300"
+          />
+          <button
+            id="button"
+            class="bg-orange-500 hover:bg-orange-500 active:orange-500 focus:outline-none focus:ring focus:ring-orange-300 rounded-sm px-5 ml-1 text-white font-medium"
+          >
+            Search
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
